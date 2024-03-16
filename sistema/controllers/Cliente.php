@@ -30,7 +30,7 @@ if ($_REQUEST['action']) {
 
             # define o post senha como o sha1 dele mesmo (criptografia)
             $_POST['senha'] = sha1($_POST['senha']);
-
+            
             # verifica se o usuario ja existe pelo cpf
             $issetCPF = $manager->select_common("usuarios", null, ['cpf'=>$_POST['cpf']], null);
 

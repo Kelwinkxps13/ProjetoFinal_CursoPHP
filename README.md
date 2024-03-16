@@ -73,6 +73,7 @@
 - melhorias no crud
     - os usuarios nao podem mais realizar dois agendamentos no mesmo horario
     - tabelas de pacientes e agendamentos de cada medico adicionadas
+- os medicos nao podem excluir seus pacientes do banco de dados
 - os agendamentos cuja data já passou, serão marcados como 'Expirado' na tabela
 - resolvendo um grave erro
     - caso o usuario seja admin, ele nao podera mais nem ver, nem excluir os outros usuarios do tipo admin
